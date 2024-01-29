@@ -1,13 +1,13 @@
-import project_1 from './src/assets/project_1.jpg'
-import project_2 from './src/assets/project_2.jpg'
-import project_3 from './src/assets/project_3.jpg'
-import project_4 from './src/assets/project_4.jpg'
+import project_1 from './src/assets/farkle.jpg'
+import project_2 from './src/assets/Florist.jpg'
+import project_3 from './src/assets/component.jpg'
+import project_4 from './src/assets/bookstore.jpg'
 
 // --------------------------- NAV --------------------------- 
 export const navList = [
     {
         nav:'HOME',
-        link:'/'
+        link:'/hero'
     },
     {
         nav:'WORK',
@@ -24,42 +24,38 @@ export const navList = [
 
 ]
 
-// --------------------------- WORK CARD (BRIEF) --------------------------- 
+// --------------------------- WORK --------------------------- 
 export const work = [
-    {   
-        title:'project_1',
-        description:'lorem ipsum bal blah-1',
+    {
+        title:'Farkle Dice Game',
         img:project_1,
-        subtitle:'Molestias',
-        category:'Branding',
-        year:2022,
-        link:'http://example.com/project_1'
+        subtitle:'JavaScript Game',
+        category:'JavaScript',
+        year:2023,
+        link:'https://cool-cobbler-5c76bf.netlify.app/'
     },
-    {   
-        title:'project_2',
-        description:'lorem ipsum bal blah-2',
+    {
+        title:'Florist',
         img:project_2,
-        subtitle:'Molestias',
-        category:'UX',
-        year:2020,
-        link:'http://example.com/project_2'
+        subtitle:'Webpage Mockup',
+        category:'Front End',
+        year:2023,
+        link:'https://celebrated-fenglisu-08e595.netlify.app/'
     },
-    {   
-        title:'project_3',
-        description:'lorem ipsum bal blah-3',
+    {
+        title:'Result Component',
         img:project_3,
-        subtitle:'Molestias',
-        category:'Design',
-        year:2021,
-        link:'http://example.com/project_3'
+        subtitle:'Webpage Mockup',
+        category:'Front End',
+        year:2023,
+        link:'https://zingy-custard-4b584a.netlify.app/'
     },
-    {  
-        title:'project_4',
-        description:'lorem ipsum bal blah-4',
+    {
+        title:'bookstore',
         img:project_4,
-        subtitle:'Molestias',
-        category:'UI',
-        year:2022,
+        subtitle:'Webpage Mockup',
+        category:'Front End',
+        year:2023,
         link:'http://example.com/project_4'
     },
 ]
