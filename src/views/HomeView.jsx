@@ -1,9 +1,9 @@
-import {useState} from 'react'
+import { useNavigate } from "react-router-dom"
 import { BsArrowRightCircle } from "react-icons/bs"
 
 
 const Hero = () => {
-
+  const navigate = useNavigate()
   return (
     <div id="hero" className='w-full h-screen grid grid-cols-1'>
       <div className="flex flex-col py-10 w-full justify-center">
@@ -16,7 +16,7 @@ const Hero = () => {
       <div className='grid grid-cols-1 sm:grid-cols-2 items-end gap-4'>
         <div id="button" className="flex items-center rounded-full text-center lg:w-1/3 bg-black text-white border border-white hover:invert duration-700 sm:order-first order-last w-1/2">
           <BsArrowRightCircle size={30} className="m-3"/>
-          <button className='text-sm sm:text-lg '>Get in touch</button>
+          <button className='text-sm sm:text-lg' onClick={()=> navigate('/about')}>Get in touch</button>
         </div>
 
         <div>

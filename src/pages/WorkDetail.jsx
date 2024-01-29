@@ -38,7 +38,7 @@ const WorkDetail = () => {
             </div>
             <div id="content">
               <img src={item.img} alt="" />
-              <div>
+              {/* <div>
                 <p className="text-3xl">Overview</p>
                 <p className="font-thin text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium veritatis reiciendis animi distinctio corporis laboriosam consequuntur repudiandae unde assumenda! Architecto molestias voluptas suscipit voluptatem, placeat doloremque repudiandae! Velit, dolorum. <br />
                 Cumque illo, minima eligendi non rerum dolorum eveniet perspiciatis sit aut praesentium? Id eveniet culpa ab possimus harum modi et doloribus dolorum doloremque velit pariatur obcaecati tenetur iusto beatae architecto rum optio tempora nobis qui eum cumque possimus doloremque quisquam dolore itaque asperiores consequatur ratione pariatur dolorem eius, error nemo unde quibusdam? Saepe, dolorem consequuntur necessitatibus ea consequatur suscipit quaerat sunt aspernatur.</p>
@@ -62,7 +62,7 @@ const WorkDetail = () => {
                   <li>blah blah blah</li>
                   <li>blah blah blah</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             <div id="otherWorks" className="">
               <p className="font-bold uppercase text-3xl m-3 ">other works</p>

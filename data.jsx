@@ -7,7 +7,7 @@ import project_4 from './src/assets/bookstore.jpg'
 export const navList = [
     {
         nav:'HOME',
-        link:'/hero'
+        link:'/'
     },
     {
         nav:'WORK',
@@ -32,7 +32,10 @@ export const work = [
         subtitle:'JavaScript Game',
         category:'JavaScript',
         year:2023,
-        link:'https://cool-cobbler-5c76bf.netlify.app/'
+        link:'https://cool-cobbler-5c76bf.netlify.app/',
+        overview:'A JavaScript game',
+        challenge:'',
+        results:''
     },
     {
         title:'Florist',
@@ -56,7 +59,7 @@ export const work = [
         subtitle:'Webpage Mockup',
         category:'Front End',
         year:2023,
-        link:'http://example.com/project_4'
+        link:'https://relaxed-pegasus-33f9a5.netlify.app/'
     },
 ]
 
@@ -73,7 +76,7 @@ export const experience = [
     {
         company:'Freelancing',
         role:'Experience Designer',
-        duration:'Sept. 2021 - April. 2022',
+        duration:'Sept. 2021 - April 2023',
         duties:"As part of a cross-functional team, I worked closely with stakeholders to develop research plans that were rooted in business goals and KPIs. Through these plans, I was able to gather valuable user insights that drove iterative design improvements. My contributions to the design process included creating and applying 20 UI elements across multiple platforms to enhance the visual appeal and cohesion of the product. Additionally, I leveraged the design thinking methodology to identify user pain points and devise innovative solutions that addressed their needs."
     },
     {
