@@ -15,6 +15,7 @@ const App = () => {
     lg:px-[200px] grid grid-cols-1 gap-[20px]'>
       <NavBar />
       <Routes>
+        <Route path='*' element={<Home />} />
         <Route path='/' element={<Home />} />
         <Route path='/work' element={<WorkIndex />} />
         <Route path='/work/:title' element={<WorkDetail/>} />
