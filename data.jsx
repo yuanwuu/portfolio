@@ -33,9 +33,13 @@ export const work = [
         category:'JavaScript',
         year:2023,
         link:'https://cool-cobbler-5c76bf.netlify.app/',
-        overview:'A JavaScript game',
-        challenge:'',
-        results:''
+        overview:"This JavaScript game is a digital version of the popular dice game Farkle, where players take turns rolling six dice to score points. In this game, the player competes against a computer opponent, with the goal of reaching a randomly generated winning score first. Players can choose to roll all six dice or only some of them, trying to score points with specific combinations such as three of a kind, straights, or six of a kind. However, if a player fails to score in a turn, they FARKLE and lose all points accumulated in that round.  The game features a user-friendly interface with clear displays of the current player's score, the computer's score, and the target score. Players can easily see the dice rolls and the resulting scores for each turn.  As players progress through the game, they can track their scores over multiple rounds, striving to beat their personal bests and defeat the computer opponent. With its simple yet addictive gameplay, this JavaScript game provides a fun and entertaining challenge for players of all skill levels.",
+        // challenge:[
+        //     "Ensuring the computer's moves are random but still provide a fair challenge for the player",
+        //     'Programming the rules of the game, including scoring combinations and the "farkle" mechanic',
+        //     'Tracking the scores of both the player and the computer, and determining the winner',
+        //     'Debugging any issues that arise, such as incorrect scoring or unexpected behavior'
+        // ],
     },
     {
         title:'Florist',
@@ -43,7 +47,8 @@ export const work = [
         subtitle:'Webpage Mockup',
         category:'Front End',
         year:2023,
-        link:'https://celebrated-fenglisu-08e595.netlify.app/'
+        link:'https://celebrated-fenglisu-08e595.netlify.app/',
+        overview: "This landing page was created using Framer Motion, a popular animation library for React. The page features a sleek and modern design, with smooth animations and transitions that enhance the user experience.  The landing page includes various sections to showcase the key features and benefits of the product or service being promoted. The design incorporates a mix of text, images, and calls-to-action, all carefully arranged to guide visitors through the page and encourage them to take action.  One of the standout features of this landing page is the creative use of animations to draw attention to important elements and create a dynamic and engaging experience. The animations are implemented using Framer Motion, which provides a powerful and flexible toolset for creating complex animations and interactions.  Overall, this landing page demonstrates a strong understanding of effective design principles, as well as proficiency in using Framer Motion to create a visually stunning and functional web experience."
     },
     {
         title:'Result Component',
@@ -59,7 +64,8 @@ export const work = [
         subtitle:'Webpage Mockup',
         category:'Front End',
         year:2023,
-        link:'https://relaxed-pegasus-33f9a5.netlify.app/'
+        link:'https://relaxed-pegasus-33f9a5.netlify.app/',
+        overview:"This digital bookstore web app provides a unique and engaging way to discover new books. The app features a user-friendly interface for browsing and searching a vast collection of titles. A standout feature is the random book generator, which uses an API to suggest unexpected book recommendations. Users can also sort and filter books based on genre, popularity, or other criteria. Additionally, the app allows users to save or bookmark books they're interested in, making it easy to build a personal reading list.  Built using React.js, the app's front-end is designed to be dynamic and responsive, providing an exceptional user experience. The app also showcases social components, enabling users to share their favorite books or see what others are reading. Overall, this digital bookstore web app offers a fresh and exciting way to explore the world of literature and build a personalized reading journey."
     },
 ]
 

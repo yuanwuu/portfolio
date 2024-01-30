@@ -8,7 +8,7 @@ const WorkDetail = () => {
   const item = work.find((item) => item.title === title);
   // const categoryItems = work.filter((item) => item.category === category)
   const randomItem1 = Math.floor(work.length * Math.random())
-  const randomItem2 = Math.round(work.length * Math.random())
+  const randomItem2 = Math.ceil(work.length * Math.random())
   
   
 
@@ -20,7 +20,7 @@ const WorkDetail = () => {
           <div className="flex flex-col gap-10">
             <div id="heading" className="">
               <h1 className="text-2xl uppercase">{title}</h1>
-              <p>Description: {item.description}</p>
+              {/* <p>Description: {item.description}</p> */}
             </div>
             <div id="subhead" className="flex justify-between w-full">
               <div>
@@ -38,31 +38,10 @@ const WorkDetail = () => {
             </div>
             <div id="content">
               <img src={item.img} alt="" />
-              {/* <div>
+              <div className="mt-10 mb-10">
                 <p className="text-3xl">Overview</p>
-                <p className="font-thin text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium veritatis reiciendis animi distinctio corporis laboriosam consequuntur repudiandae unde assumenda! Architecto molestias voluptas suscipit voluptatem, placeat doloremque repudiandae! Velit, dolorum. <br />
-                Cumque illo, minima eligendi non rerum dolorum eveniet perspiciatis sit aut praesentium? Id eveniet culpa ab possimus harum modi et doloribus dolorum doloremque velit pariatur obcaecati tenetur iusto beatae architecto rum optio tempora nobis qui eum cumque possimus doloremque quisquam dolore itaque asperiores consequatur ratione pariatur dolorem eius, error nemo unde quibusdam? Saepe, dolorem consequuntur necessitatibus ea consequatur suscipit quaerat sunt aspernatur.</p>
-                <ul>
-                  <li>blah blah blah</li>
-                  <li>blah blah blah</li>
-                  <li>blah blah blah</li>
-                </ul>
-                <img src="" alt="" className="w-full h-1/4" />
-                <p className="text-3xl">Challenge</p>
-                <p className="font-thin text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium veritatis reiciendis animi distinctio corporis laboriosam consequuntur repudiandae unde assumenda! Architecto molestias voluptas suscipit voluptatem, placeat doloremque repudiandae! Velit, dolorum. </p>
-                <ul>
-                  <li>blah blah blah</li>
-                  <li>blah blah blah</li>
-                  <li>blah blah blah</li>
-                </ul>
-                <p className="text-3xl">Results</p>
-                <p className="font-thin text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium veritatis reiciendis animi distinctio corporis laboriosam consequuntur repudiandae unde assumenda! Architecto molestias voluptas suscipit voluptatem, placeat doloremque repudiandae! Velit, dolorum. </p>
-                <ul>
-                  <li>blah blah blah</li>
-                  <li>blah blah blah</li>
-                  <li>blah blah blah</li>
-                </ul>
-              </div> */}
+                <p className="font-light text-gray-800 mt-5 mb-10 leading-relaxed">{item.overview}</p>
+              </div>
             </div>
             <div id="otherWorks" className="">
               <p className="font-bold uppercase text-3xl m-3 ">other works</p>
